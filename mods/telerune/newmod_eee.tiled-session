@@ -1,0 +1,220 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "scripts/world/maps/room1.tmx",
+    "expandedProjectPaths": [
+        "scripts/world/tilesets",
+        "scripts/world",
+        "scripts/world/maps"
+    ],
+    "fileStates": {
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/maps/alley.tmx": {
+            "scale": 0.6220238095238095,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 421.20574162679424,
+                "y": 240.34449760765546
+            }
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/maps/alley3.tmx": {
+            "scale": 1,
+            "selectedLayer": 6,
+            "viewCenter": {
+                "x": 539,
+                "y": 278.5
+            }
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/maps/fountain.tmx": {
+            "scale": 0.773359375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.03232649762606,
+                "y": 241.15567229013038
+            }
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/alley.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/alley_animated.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/alley_buildings_glitch.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/city_alley.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/street_edges.tsx": {
+            "scaleInDock": 1
+        },
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/tilesets/test_battleborder.tsx": {
+            "scaleInDock": 1
+        },
+        "scripts/world/maps/1.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 598,
+                "y": 734
+            }
+        },
+        "scripts/world/maps/bedroom.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 370.5,
+                "y": 273.25
+            }
+        },
+        "scripts/world/maps/hall.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                5
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 316,
+                "y": -114.5
+            }
+        },
+        "scripts/world/maps/kitchen.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3,
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 444,
+                "y": 209.99999999999994
+            }
+        },
+        "scripts/world/maps/room1-light.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                5
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 350.66666666666663,
+                "y": 500.6666666666667
+            }
+        },
+        "scripts/world/maps/room1.tmx": {
+            "expandedObjectLayers": [
+                3,
+                4,
+                5
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 176,
+                "y": 263.5
+            }
+        },
+        "scripts/world/maps/room2-light.tmx": {
+            "expandedObjectLayers": [
+                5
+            ],
+            "scale": 0.6186875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 395.99959591877973,
+                "y": 240.02424487321952
+            }
+        },
+        "scripts/world/maps/room2.tmx": {
+            "scale": 0.6186875,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 399.232245681382,
+                "y": 240.02424487321957
+            }
+        },
+        "scripts/world/maps/schooldoor.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3,
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 660.5,
+                "y": 294.75
+            }
+        },
+        "scripts/world/tilesets/bedroom.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 0.75
+        },
+        "scripts/world/tilesets/castle-light.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/tilesets/castle.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "scripts/world/tilesets/hall.tsx": {
+            "scaleInDock": 0.33,
+            "scaleInEditor": 0.5
+        },
+        "scripts/world/tilesets/schooltiles.tsx": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/user/AppData/Roaming/kristal/mods/telerune/scripts/world/maps",
+    "last.imagePath": "C:/Users/user/AppData/Roaming/kristal/mods/newmod_eee/assets/sprites/tilesets",
+    "lastUsedTilesetExportFilter": "Lua файлы (*.lua)",
+    "map.lastUsedExportFilter": "Lua файлы (*.lua)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 40,
+    "map.tileWidth": 40,
+    "map.width": 41,
+    "openFiles": [
+        "scripts/world/maps/hall.tmx",
+        "scripts/world/maps/room1-light.tmx",
+        "scripts/world/maps/schooldoor.tmx",
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/maps/kitchen.tmx"
+    ],
+    "project": "newmod_eee.tiled-project",
+    "recentFiles": [
+        "scripts/world/maps/hall.tmx",
+        "scripts/world/maps/room1-light.tmx",
+        "scripts/world/maps/schooldoor.tmx",
+        "scripts/world/maps/kitchen.tmx",
+        "scripts/world/maps/room1.tmx",
+        "scripts/world/tilesets/bedroom.tsx",
+        "scripts/world/maps/bedroom.tmx",
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/maps/alley3.tmx",
+        "C:/Users/user/AppData/Roaming/kristal/mods/_testmod/scripts/world/maps/alley.tmx",
+        "scripts/world/maps/room2-light.tmx",
+        "scripts/world/maps/room2.tmx",
+        "scripts/world/maps/1.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 40,
+        "width": 40
+    }
+}
