@@ -77,20 +77,6 @@ function MainMenuCredits:init(menu)
                 "MrOinky"
             }
         },
-            {
-                {"GitHub Contributors", COLORS.silver},
-                "AcousticJamm",
-                "Agent 7",
-                "AlexGamingSW",
-                "Archie-osu",
-                "Bor",
-                "Dobby233Liu",
-                "FireRainV",
-                "HUECYCLES",
-                "Luna",
-                "MrOinky"
-            }
-        },
         {
             "Kristal Engine",
             {
