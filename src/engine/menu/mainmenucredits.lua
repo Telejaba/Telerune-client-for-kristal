@@ -32,7 +32,7 @@ function MainMenuCredits:init(menu)
                 "MRPro64",
             },
             {
-                {"The whole company", COLORS.orange},
+                {"The whole team", COLORS.orange},
                 "Telejaba",
                 "OlegISS",
                 "Rookie",
@@ -40,7 +40,7 @@ function MainMenuCredits:init(menu)
                 "RRLLMM",
                 "MRPro64",
                 "Fiuzz",
-                "Sonic3airForever/SonicBlueSpeed",
+                "SonicBlueSpeed",
                 "Yebyebby",
                 "SunkiEmerduud",
             }
