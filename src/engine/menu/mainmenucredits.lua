@@ -20,6 +20,10 @@ function MainMenuCredits:init(menu)
         {
             "TeleRune",
             {
+                {"Lead Developers", COLORS.red},
+                "Telejaba",
+                "OlegISS",
+                "",
                 {"Contributors", COLORS.silver},
                 "TheSunsMoon (Poster)",
                 "Kristal Server (Help with code)",
@@ -29,7 +33,7 @@ function MainMenuCredits:init(menu)
             },
             {
                 {"The whole team", COLORS.orange},
-                {"Telejaba (lead dev)", COLORS.red},
+                "Telejaba",
                 "OlegISS",
                 "Rookie",
                 "BlueBoldIsHead59",
