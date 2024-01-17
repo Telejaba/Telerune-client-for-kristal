@@ -18,6 +18,37 @@ function MainMenuCredits:init(menu)
 
     self.pages = {
         {
+            "TeleRune",
+            {
+                {"Lead Developers", COLORS.orange},
+                "Telejaba",
+                "",
+                {"Other part team", COLORS.silver},
+                "OlegISS",
+                "Rookie",
+                "BlueBoldIsHead59",
+                "RRLLMM",
+                "MRPro64",
+                "Fiuzz",
+                "Sonic3airForever/SonicBlueSpeed",
+                "Yebyebby",
+                "SunkiEmerduud",
+            },
+            {
+                {"Contributors", COLORS.silver},
+                "AcousticJamm",
+                "Agent 7",
+                "AlexGamingSW",
+                "Archie-osu",
+                "Bor",
+                "Dobby233Liu",
+                "FireRainV",
+                "HUECYCLES",
+                "Luna",
+                "MrOinky"
+            }
+        },
+        {
             "Kristal Engine",
             {
                 {"Lead Developers", COLORS.silver},
@@ -32,6 +63,20 @@ function MainMenuCredits:init(menu)
                 "",
                 "",
             },
+            {
+                {"GitHub Contributors", COLORS.silver},
+                "AcousticJamm",
+                "Agent 7",
+                "AlexGamingSW",
+                "Archie-osu",
+                "Bor",
+                "Dobby233Liu",
+                "FireRainV",
+                "HUECYCLES",
+                "Luna",
+                "MrOinky"
+            }
+        },
             {
                 {"GitHub Contributors", COLORS.silver},
                 "AcousticJamm",
