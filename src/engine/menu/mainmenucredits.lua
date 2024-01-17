@@ -20,10 +20,19 @@ function MainMenuCredits:init(menu)
         {
             "TeleRune",
             {
-                {"Lead Developers", COLORS.orange},
+                {"Lead Developers", COLORS.red},
                 "Telejaba",
+                "OlegISS",
                 "",
-                {"Other part team", COLORS.silver},
+                {"Contributors", COLORS.silver},
+                "thesunsmoon (some sorta poster)",
+                "everyone who helped with code\non kristal server",
+                {"FRISK SIMPSON", COLORS.yellow},
+                "MRPro64",
+            },
+            {
+                {"The whole company", COLORS.orange},
+                "Telejaba",
                 "OlegISS",
                 "Rookie",
                 "BlueBoldIsHead59",
@@ -33,19 +42,6 @@ function MainMenuCredits:init(menu)
                 "Sonic3airForever/SonicBlueSpeed",
                 "Yebyebby",
                 "SunkiEmerduud",
-            },
-            {
-                {"Contributors", COLORS.silver},
-                "AcousticJamm",
-                "Agent 7",
-                "AlexGamingSW",
-                "Archie-osu",
-                "Bor",
-                "Dobby233Liu",
-                "FireRainV",
-                "HUECYCLES",
-                "Luna",
-                "MrOinky"
             }
         },
         {
