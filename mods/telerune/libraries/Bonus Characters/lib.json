@@ -1,0 +1,12 @@
+{
+    "id": "bonus_chara",
+    "authors": [
+        "Bor - Making the thing (Berdly and Lancer)",
+        "u/Kiptty - Fight, act, item, defend sprites (Berdly and Lancer)",
+		"Charbomber (Dess)",
+        "Dark Place Dev Team (Starwalker and Dess)",
+	    "FireRainV - QoL changes"
+    ],
+    "version": "v1.0.3",
+    "engineVer": "v0.8.1"
+}
