@@ -1910,11 +1910,10 @@ function Battle:nextParty()
         if self:getState() ~= "ACTIONSELECT" then
             self:setState("ACTIONSELECT")
             self.battle_ui.encounter_text:setText("[instant]" .. self.battle_ui.current_encounter_text)
-        else
-            local party = self.party[self.current_selecting]
-            party.chara:onActionSelect(party, false)
-            self.encounter:onCharacterTurn(party, false)
         end
+        local party = self.party[self.current_selecting]
+        party.chara:onActionSelect(party, false)
+        self.encounter:onCharacterTurn(party, false)
     end
 end
 
@@ -2033,6 +2032,12 @@ function Battle:nextTurn()
         for _,party in ipairs(self.party) do
             party.chara:onTurnStart(party)
         end
+    end
+
+    -- bad solution
+    if self.turn_count > 1 then
+        self.party[1].chara:onActionSelect(self.party[1], false)
+        self.encounter:onCharacterTurn(self.party[1], false)
     end
 
     if self.current_selecting ~= 0 then
@@ -2525,7 +2530,7 @@ function Battle:draw()
     self.encounter:drawBackground(self.transition_timer / 10)
 
     Draw.setColor(0, 0, 0, self.background_fade_alpha)
-    love.graphics.rectangle("fill", 0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+    love.graphics.rectangle("fill", -20, -20, SCREEN_WIDTH + 40, SCREEN_HEIGHT + 40)
 
     super.draw(self)
 
@@ -2751,7 +2756,7 @@ function Battle:onKeyPressed(key)
         if Input.isConfirm(key) then
             local menu_item = self.menu_items[self:getItemIndex()]
             local can_select = self:canSelectMenuItem(menu_item)
-            if Game.battle.encounter:onMenuSelect(self.state_reason, menu_item, can_select) then return end
+            if self.encounter:onMenuSelect(self.state_reason, menu_item, can_select) then return end
             if Kristal.callEvent("onBattleMenuSelect", self.state_reason, menu_item, can_select) then return end
             if can_select then
                 self.ui_select:stop()
@@ -2760,6 +2765,8 @@ function Battle:onKeyPressed(key)
                 return
             end
         elseif Input.isCancel(key) then
+            if self.encounter:onMenuCancel(self.state_reason, menu_item) then return end
+            if Kristal.callEvent("onBattleMenuCancel", self.state_reason, menu_item, can_select) then return end
             self.ui_move:stop()
             self.ui_move:play()
             Game:setTensionPreview(0)
@@ -2798,6 +2805,8 @@ function Battle:onKeyPressed(key)
         end
     elseif self.state == "ENEMYSELECT" or self.state == "XACTENEMYSELECT" then
         if Input.isConfirm(key) then
+            if self.encounter:onEnemySelect(self.state_reason, self.current_menu_y) then return end
+            if Kristal.callEvent("onBattleEnemySelect", self.state_reason, self.current_menu_y) then return end
             self.ui_select:stop()
             self.ui_select:play()
             if #self.enemies == 0 then return end
@@ -2854,6 +2863,8 @@ function Battle:onKeyPressed(key)
             return
         end
         if Input.isCancel(key) then
+            if self.encounter:onEnemyCancel(self.state_reason, self.current_menu_y) then return end
+            if Kristal.callEvent("onBattleEnemyCancel", self.state_reason, self.current_menu_y) then return end
             self.ui_move:stop()
             self.ui_move:play()
             if self.state_reason == "SPELL" then
@@ -2904,6 +2915,8 @@ function Battle:onKeyPressed(key)
         end
     elseif self.state == "PARTYSELECT" then
         if Input.isConfirm(key) then
+            if self.encounter:onPartySelect(self.state_reason, self.current_menu_y) then return end
+            if Kristal.callEvent("onBattlePartySelect", self.state_reason, self.current_menu_y) then return end
             self.ui_select:stop()
             self.ui_select:play()
             if self.state_reason == "SPELL" then
@@ -2916,6 +2929,8 @@ function Battle:onKeyPressed(key)
             return
         end
         if Input.isCancel(key) then
+            if self.encounter:onPartyCancel(self.state_reason, self.current_menu_y) then return end
+            if Kristal.callEvent("onBattlePartyCancel", self.state_reason, self.current_menu_y) then return end
             self.ui_move:stop()
             self.ui_move:play()
             if self.state_reason == "SPELL" then
